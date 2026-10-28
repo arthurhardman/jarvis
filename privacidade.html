@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade · Jarvis</title>
+<meta name="description" content="Como o Jarvis usa e protege os dados do usuário.">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow"><a href="./">Jarvis</a></p>
+  <h1>Política de Privacidade</h1>
+  <p class="lead">Última atualização: 28 de outubro de 2026.</p>
+
+  <p>O Jarvis é um assistente de voz pessoal, usado apenas pelo seu autor, Arthur Augusto Paula Hardman. Esta página explica quais dados ele acessa, para quê, onde eles ficam e como revogar o acesso.</p>
+
+  <h2>1. Dados da conta Google</h2>
+  <p>Com a autorização do usuário, o Jarvis acessa:</p>
+  <ul>
+    <li><strong>Google Agenda</strong> (<code>calendar</code>): para listar, criar, alterar e apagar eventos, apenas quando o usuário pede por voz.</li>
+    <li><strong>Google Tarefas</strong> (<code>tasks</code>): para listar, criar e concluir tarefas, apenas quando o usuário pede por voz.</li>
+  </ul>
+  <p>Esses dados são usados <strong>somente</strong> para responder aos pedidos do próprio usuário. Eles não são vendidos, não são compartilhados com terceiros para publicidade, não são usados para criar perfis e não são usados para treinar modelos de IA.</p>
+  <p>O uso e a transferência de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>2. Voz e texto</h2>
+  <ul>
+    <li><strong>Áudio da fala:</strong> enviado ao Microsoft Azure AI Speech para ser transformado em texto. O Jarvis não grava nem guarda o áudio.</li>
+    <li><strong>Texto do pedido:</strong> enviado à API da Anthropic (Claude), junto com os dados de agenda e tarefas necessários para responder. Pela política da Anthropic, dados enviados pela API não são usados para treinar modelos.</li>
+    <li><strong>Resposta falada:</strong> gerada pelo Microsoft Azure AI Speech a partir do texto da resposta.</li>
+  </ul>
+
+  <h2>3. O que fica guardado e onde</h2>
+  <ul>
+    <li><strong>Histórico recente da conversa:</strong> guardado no computador do usuário e descartado depois de 6 horas sem uso.</li>
+    <li><strong>Memória de longo prazo:</strong> fatos que o usuário pede para lembrar, numa nota de texto no computador do usuário, que ele pode ler, editar ou apagar.</li>
+    <li><strong>Autorização do Google:</strong> o token de acesso fica num arquivo local, legível só pelo usuário do computador.</li>
+  </ul>
+  <p>O Jarvis não mantém banco de dados na nuvem com dados do usuário.</p>
+
+  <h2>4. Como revogar o acesso</h2>
+  <p>O acesso à conta Google pode ser removido a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, escolhendo "Jarvis" e depois "Remover acesso". Apagar os arquivos locais do Jarvis elimina o histórico, a memória e o token.</p>
+
+  <h2>5. Contato</h2>
+  <p>Dúvidas sobre esta política: <a href="mailto:arthur.augusto2012@gmail.com">arthur.augusto2012@gmail.com</a>.</p>
+</main>
+<footer><a href="./">Início</a> · Jarvis</footer>
+</body>
+</html>
